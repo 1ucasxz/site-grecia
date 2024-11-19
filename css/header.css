@@ -1,0 +1,88 @@
+header {
+    background-color: #345961;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+header .contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+header .contato > div{
+    display: flex;
+    gap: 30px;
+}
+
+header .contato p {
+    color: #269bb6;
+    font-size: 15px;
+}
+
+header .contato p > b {
+    color: #00cfff;
+    font-weight: 900;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 100px;
+}
+
+header .pesquisar {
+    
+    display: flex;
+    background-color: #00cfff;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 50px;
+    justify-content: space-between;
+    width: 250px;
+}
+
+header .pesquisar p {
+    color: #000;
+    padding-right: 10px;
+}
+
+header .pesquisar img {
+    width: 16px;
+    height: 16px;
+}
+
+header > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #269bb6; 
+    padding-inline: 350px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
